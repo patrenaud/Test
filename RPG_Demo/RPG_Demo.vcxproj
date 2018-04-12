@@ -111,11 +111,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BaseGameState.cpp" />
+    <ClCompile Include="Character.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="EnemySquad.cpp" />
+    <ClCompile Include="FightState.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Mage.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Squad.cpp" />
+    <ClCompile Include="SquadState.cpp" />
+    <ClCompile Include="Warrior.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BaseGameState.h" />
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemySquad.h" />
+    <ClInclude Include="FightState.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="Mage.h" />
+    <ClInclude Include="Squad.h" />
+    <ClInclude Include="SquadState.h" />
+    <ClInclude Include="Warrior.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
