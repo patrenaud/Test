@@ -3,6 +3,7 @@
 #include <cstdlib>
 
 #include "Game.h"
+#include "Squad.h"
 
 Game::Game()
 {
@@ -19,7 +20,7 @@ void Game::Run()
 	{
 		system("cls");
 		std::cout << "Voici les choix disponibles:\n" <<
-			"   -1 : Quitter le jeu\n" <<
+			"   -1 : Quitter le jeu\n" << 
 			" Entrer votre choix: ";
 		int choix = 0;
 		std::cin >> choix;
