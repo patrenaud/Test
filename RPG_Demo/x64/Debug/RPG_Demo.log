@@ -1,0 +1,11 @@
+﻿  Warrior.cpp
+  Squad.cpp
+  main.cpp
+  Mage.cpp
+  Game.cpp
+d:\users\1810057\desktop\github test\test\rpg_demo\game.cpp(18): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+  Character.cpp
+  BaseGameState.cpp
+  Génération de code en cours...
+  RPG_Demo.vcxproj -> D:\Users\1810057\Desktop\GitHub Test\Test\x64\Debug\RPG_Demo.exe
+  RPG_Demo.vcxproj -> D:\Users\1810057\Desktop\GitHub Test\Test\x64\Debug\RPG_Demo.pdb (Partial PDB)
